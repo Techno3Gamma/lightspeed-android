@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "897547024310",
+    "firebase_url": "https://lightspeed-t3g.firebaseio.com",
+    "project_id": "lightspeed-t3g",
+    "storage_bucket": "lightspeed-t3g.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897547024310:android:98f67d1059a0f1969e7317",
+        "android_client_info": {
+          "package_name": "com.t3g.lightspeed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897547024310-ubo898bt8iq2492gfkk03ls7v05j3vim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkG53mWc7cGaFtzQYZPJ52OsUPb5VINxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897547024310-ubo898bt8iq2492gfkk03ls7v05j3vim.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897547024310:android:18019cf8c81b402e9e7317",
+        "android_client_info": {
+          "package_name": "com.t3g.lightspeed.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897547024310-ubo898bt8iq2492gfkk03ls7v05j3vim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkG53mWc7cGaFtzQYZPJ52OsUPb5VINxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897547024310-ubo898bt8iq2492gfkk03ls7v05j3vim.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

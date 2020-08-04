@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/actionsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="8dp"
+
+        android:paddingBottom="8dp">
+
+
+        <ImageView
+            android:id="@+id/sendLayoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/send" />
+
+        <View
+            android:layout_width="@dimen/short_content_width_padding"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/receiveLayoutButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/receive" />
+
+
+    </LinearLayout>
+
+    <!--<View
+        android:id="@+id/separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@id/actionsContainer"
+        android:background="?colorDivider" />-->
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/actionsContainer"
+        android:layout_alignParentTop="true" />
+</RelativeLayout>

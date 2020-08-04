@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group>
+
+        <item
+            android:visible="false"
+            android:id="@+id/menu_activity_main_manage_devices"
+            android:icon="@drawable/ic_devices_white_24dp"
+            android:orderInCategory="1"
+            android:title="@string/text_manageDevices" />
+
+        <item
+            android:visible="false"
+            android:id="@+id/menu_activity_main_web_share"
+            android:icon="@drawable/ic_web_white_24dp"
+            android:orderInCategory="2"
+            android:title="@string/butn_webShare" />
+
+        <item
+            android:id="@+id/menu_activity_main_send_application"
+            android:icon="@drawable/ic_redo_white_24dp"
+            android:orderInCategory="3"
+            android:title="@string/butn_shareLightSpeed" />
+
+        <item
+            android:id="@+id/menu_activity_main_preferences"
+            android:icon="@drawable/ic_settings_white_24dp"
+            android:orderInCategory="4"
+            android:title="@string/text_settings" />
+
+        <item
+
+            android:id="@+id/menu_activity_main_about"
+            android:icon="@drawable/ic_info_white_24dp"
+            android:orderInCategory="5"
+            android:title="@string/text_about" />
+
+        <item
+            android:id="@+id/menu_activity_bug_report"
+            android:icon="@drawable/wa"
+            android:orderInCategory="7"
+            android:title="@string/bug_report"/>
+
+        <item
+            android:id="@+id/menu_activity_privacy"
+            android:icon="@drawable/privacy_policy"
+            android:orderInCategory="7"
+            android:title="@string/privacy_policy"/>
+
+        <item
+            android:id="@+id/menu_activity_main_exit"
+            android:icon="@drawable/ic_exit_to_app_white_24dp"
+            android:orderInCategory="8"
+            android:title="@string/butn_exit" />
+
+    </group>
+
+    <group>
+        <item
+            android:visible="false"
+            android:id="@+id/menu_activity_trustzone"
+            android:orderInCategory="15"/>
+            android:title="@string/butn_turnTrustZoneOff" />
+
+    </group>
+
+<!--    <group>-->
+
+<!--        <item-->
+<!--            android:orderInCategory="18"-->
+<!--            app:actionLayout="@layout/layout_main_navigationview_footer"-->
+<!--            tools:ignore="MenuTitle" />-->
+
+<!--    </group>-->
+</menu>

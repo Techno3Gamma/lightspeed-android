@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.t3g.lightspeed",
+  "variantName": "googlePlayRelease",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [],
+      "versionCode": 21,
+      "versionName": "21",
+      "enabled": true,
+      "outputFile": "app-googlePlay-release.apk"
+    }
+  ]
+}
