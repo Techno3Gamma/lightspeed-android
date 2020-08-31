@@ -32,34 +32,88 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
-                android:text="You can use it to share or transfer files without internet and manage all of your files in one place with File Manger.
+                android:text="You can use it to share or transfer files without internet and manage all of your files in one place with File Manger."
+/>
 
 
-Features -
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Features : "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="1. Share multiple content from your video, photo, music and applications."/>
 
-1. Share multiple content from your video, photo, music and applications.
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="2. Share with a max speed up to 25MB/s."/>
 
-2. Share with a max speed up to 25MB/s.
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="3. No internet connection is required: setup a hotspot and connect to it using QR code."/>
 
-3. No internet connection is required: setup a hotspot and connect to it using QR code.
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="4. Share folders as they are for backup and other purposes."/>
 
-4. Share folders as they are for backup and other purposes.
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="5. Light UI: Works faster even on low-end devices."/>
 
-5. Light UI: Works faster even on low-end devices.
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="6. Speed-oriented: optimized for speed"/>
 
-6. Speed-oriented: optimized for speed
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="5. Dark Mode : Save your phone's battery and also your Beautiful Eyes by using Dark Mode."/>
 
-5. Dark Mode : Save your phone's battery and also your Beautiful Eyes by using Dark Mode.
-
-Credits
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:linksClickable="true"
+                android:autoLink="web"
+                android:text="Credits:
 This application uses Open Source components. You can find the source code of their open source projects along with license information below. We acknowledge and are grateful to these developers for their contributions to open source.
 
-Lightspeed Source Code : https://github.com/Techno3Gamma/lightspeed-android
+Lightspeed Source Code : https://github.com/Techno3Gamma/lightspeed-android"/>
 
-Source Project: Trebleshot https://github.com/trebleshot/android
+<TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+    android:autoLink="web"
+    android:linksClickable="true"
+            android:text="Source Project: Trebleshot https://github.com/trebleshot/android
 Copyright 2013 Yahoo! Inc. All right reserved.
 License (GNU General Public License v2.0) https://github.com/trebleshot/android/blob/master/COPYING"
-                android:textAlignment="center"
+
                 android:paddingBottom="5dp"/>
 
 
